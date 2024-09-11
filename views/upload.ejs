@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Workpaper</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Upload Your Workpaper</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/workpapers">Workpapers</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form action="/upload" method="POST" enctype="multipart/form-data">
+            <input type="file" name="workpaper" accept=".pdf,.doc,.docx" required>
+            <button type="submit">Upload</button>
+        </form>
+    </main>
+</body>
+
+<footer>
+    <p>&copy; 2024 Audit Website. All rights reserved.</p>
+    <p>
+        Workpapers and tutorials created by CPA Bryan Carreto. You can find more of his content on his 
+        <a href="https://www.youtube.com/c/BryanCarreto" target="_blank">YouTube channel</a>.
+    </p>
+</footer>
+
+</html>
